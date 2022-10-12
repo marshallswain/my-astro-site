@@ -1,14 +1,13 @@
 import { defineConfig } from 'astro/config';
-
-// https://astro.build/config
 import vue from "@astrojs/vue";
 
-// https://astro.build/config
 import cloudflare from "@astrojs/cloudflare";
+import node from "@astrojs/node";
 
 // https://astro.build/config
 export default defineConfig({
-  output: 'server',
+  // output: 'server',
   integrations: [vue()],
-  adapter: cloudflare()
+  // adapter: cloudflare(),
+  adapter: node()
 });

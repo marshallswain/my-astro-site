@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@astrojs/cloudflare": "^3.0.0",
+    "@astrojs/node": "^1.1.0",
     "@astrojs/vue": "^1.1.0",
     "astro": "^1.4.7",
     "vue": "^3.2.40"
